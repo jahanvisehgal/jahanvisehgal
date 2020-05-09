@@ -1,0 +1,16 @@
+
+ body{
+ 	background-image: url('background.jpg');
+ 	padding: 160px 60px;
+  height: 1000px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+html{
+overflow: scroll;
+}
