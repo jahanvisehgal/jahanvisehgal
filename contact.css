@@ -1,5 +1,6 @@
-body{
-  background-image: url('background.jpg');
+@media only screen and (min-width: 768px) {
+  body {
+ background-image: url('background.jpg');
   padding: 160px 60px;
   height: 1000px;
   position: relative;
@@ -8,10 +9,30 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100;
-  height: auto;
+  }
+  #jumbotron{
+    background: white;
+  opacity: 0.8;
 }
-#jumbotron{
-	background: white;
-	opacity: 0.8;
+}
+   
+
+@media only screen and (max-width: 767px) {
+  body {      
+   background: rgb(189,146,209);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  }
+
+  #jumbotron{
+   
+ background: white;
+  opacity: 0.8;
+}
+
+}
+html{
+  overflow: scroll;
 }
