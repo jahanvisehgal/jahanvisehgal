@@ -1,22 +1,45 @@
-body{
-  background-image: url('background.jpg');
-  padding: 160px 60px;
-  height: 1000px;
-  position: relative;
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url('background.jpg');
   overflow: hidden;
   width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+  }
+  #jumbotron{
+   text-align: center;
+    align-content: center;
+    padding: 100px;
+    margin: 120px;
+    background: black;
+    opacity: 0.8;
+}
+}
+   
+
+@media only screen and (max-width: 767px) {
+  body {      
+   background: rgb(189,146,209);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100;
-  height: auto;
+  
+  }
+
+  #jumbotron{
+   
+    background: black;
+    opacity: 0.8;
+    color: white;
+}
 }
 h1{
 	color: white;
 }
-p{
-	color: white;
-}
+
 #button{
 	text-align: center;
 }
@@ -25,15 +48,7 @@ p{
   text-align: center;
   align-content: center;
 }
-#jumbotron{
-	 text-align: center;
-    align-content: center;
-    padding: 50px;
-    margin: 150px;
-    background: black;
-    opacity: 0.8;
-    color: black;
-}
+
 .fa {
   padding: 10px;
   font-size: 20px;
